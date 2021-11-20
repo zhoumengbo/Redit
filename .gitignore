@@ -1,0 +1,27 @@
+out/
+
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+!/hadoop-3.1.2-build/hadoop-dist/target
+
+.Redit*
+.redit*
+
+docs/_build
+
+dependency-reduced-pom.xml
